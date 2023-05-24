@@ -4,6 +4,11 @@ import jakarta.persistence.*;
 
 import java.time.Instant;
 
+/**
+
+    @Author: Cristovão
+
+ */
 @Entity
 @Table(name = "tb_order")
 public class Order{
