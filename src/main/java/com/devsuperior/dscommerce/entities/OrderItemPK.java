@@ -7,6 +7,10 @@ import jakarta.persistence.ManyToOne;
 
 import java.util.Objects;
 
+/**
+ @Author : Cristovão Martins
+ @Date: 25/05/2023
+ */
 @Embeddable
 public class OrderItemPK {
     @ManyToOne

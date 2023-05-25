@@ -7,6 +7,10 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 
+/**
+    @Author : Cristovão Martins
+    @Date: 25/05/2023
+ */
 @Entity
 @Table(name = "tb_user")
 public class User {
@@ -22,6 +26,7 @@ public class User {
 
     @OneToMany(mappedBy = "client")
     private List<Order> orders = new ArrayList<>();
+
 
     public User() {
     }

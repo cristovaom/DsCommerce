@@ -9,9 +9,8 @@ import java.util.Objects;
 import java.util.Set;
 
 /**
-
-    @Author: Cristovão
-
+ @Author : Cristovão Martins
+ @Date: 25/05/2023
  */
 @Entity
 @Table(name = "tb_order")

@@ -6,6 +6,10 @@ import jakarta.persistence.Table;
 
 import java.util.Objects;
 
+/**
+ @Author : Cristovão Martins
+ @Date: 25/05/2023
+ */
 @Entity
 @Table(name = "tb_order_item")
 public class OrderItem {

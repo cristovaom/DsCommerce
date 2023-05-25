@@ -6,6 +6,10 @@ import java.util.HashSet;
 import java.util.Objects;
 import java.util.Set;
 
+/**
+ @Author : Cristovão Martins
+ @Date: 25/05/2023
+ */
 @Entity
 @Table(name = "tb_category")
 public class Category {

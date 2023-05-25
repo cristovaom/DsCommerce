@@ -6,6 +6,10 @@ import jakarta.persistence.*;
 import java.time.Instant;
 import java.util.Objects;
 
+/**
+ @Author : Cristovão Martins
+ @Date: 25/05/2023
+ */
 @Entity
 @Table(name = "tb_payment")
 public class Payment {
